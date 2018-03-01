@@ -28,7 +28,7 @@ class AddTodo extends Component {
             required
             type="text"
             autoFocus
-            placeholder="New"
+            placeholder="Add a new todo..."
             value={this.state.todoTitle}
             onChange={this.onInputChange}
           />
