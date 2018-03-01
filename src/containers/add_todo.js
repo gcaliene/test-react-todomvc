@@ -17,7 +17,8 @@ class AddTodo extends Component {
 
   onFormSubmit(event) {
     event.preventDefault();
-
+    console.log(this.state.todoTitle);
+    this.props.onAddTodoChange(this.state.todoTitle);
     //Clear input after sumbitting
     this.setState({ todoTitle: '' });
   }

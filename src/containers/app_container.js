@@ -12,7 +12,14 @@ class AppContainer extends Component {
   render() {
     return (
       <div>
-        <AddTodo />
+        <AddTodo
+          onAddTodoChange={todo => {
+            this.setState({
+              todos: [...this.state.todos, todo]
+            });
+            console.log(this.state);
+          }}
+        />
         <TodoList />
       </div>
     );
