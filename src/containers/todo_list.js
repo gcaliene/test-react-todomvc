@@ -4,7 +4,7 @@ import Counter from './counter';
 
 const TodoList = props => {
   const todos = props.todos;
-  // console.log(todos);
+
   const todoItems = todos.map((todo, index) => {
     return (
       <TodoListItem
