@@ -28,6 +28,7 @@ class AddTodo extends Component {
       <div>
         <form onSubmit={this.onFormSubmit}>
           <input
+            required
             type="text"
             autoFocus
             placeholder="New"
