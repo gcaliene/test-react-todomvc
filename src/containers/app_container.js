@@ -12,12 +12,9 @@ class AppContainer extends Component {
 
   deleteTodoItem = deletedTodo => {
     const todos = this.state.todos.filter(todo => todo !== deletedTodo);
-    // console.log(this.state.todos);
-    // console.log(todos);
     this.setState({
       todos
     });
-    console.log(this.state.todos);
   };
 
   render() {
