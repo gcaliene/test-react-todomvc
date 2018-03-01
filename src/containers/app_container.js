@@ -20,7 +20,7 @@ class AppContainer extends Component {
             console.log(this.state);
           }}
         />
-        <TodoList />
+        <TodoList todos={this.state.todos} />
       </div>
     );
   }
