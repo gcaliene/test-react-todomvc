@@ -5,7 +5,13 @@ const TodoList = props => {
   const todos = props.todos;
   console.log(todos);
   const todoItems = todos.map((todo, index) => {
-    return <TodoListItem key={index} todo={todo} />;
+    return (
+      <TodoListItem
+        onDeleteClicked={props.onDeleteClicked}
+        key={index}
+        todo={todo}
+      />
+    );
   });
   return <ul>{todoItems}</ul>;
 };

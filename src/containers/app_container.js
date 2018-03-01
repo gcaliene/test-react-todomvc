@@ -9,6 +9,17 @@ class AppContainer extends Component {
       todos: []
     };
   }
+
+  deleteTodoItem = deletedTodo => {
+    const todos = this.state.todos.filter(todo => todo !== deletedTodo);
+    // console.log(this.state.todos);
+    // console.log(todos);
+    this.setState({
+      todos
+    });
+    console.log(this.state.todos);
+  };
+
   render() {
     return (
       <div>
@@ -20,7 +31,10 @@ class AppContainer extends Component {
             console.log(this.state);
           }}
         />
-        <TodoList todos={this.state.todos} />
+        <TodoList
+          onDeleteClicked={this.deleteTodoItem}
+          todos={this.state.todos}
+        />
       </div>
     );
   }

@@ -1,12 +1,14 @@
 import React from 'react';
 
-const TodoListItem = ({ todo }) => {
+const TodoListItem = ({ todo, onDeleteClicked }) => {
   console.log(todo);
   return (
     <li>
       <div className="todo-list-item-border">
-        <span>{todo} </span>
-        <button>X</button>
+        <span>
+          <input id="checkBox" type="checkbox" />
+          {todo} <button onClick={() => onDeleteClicked(todo)}>X</button>
+        </span>
       </div>
     </li>
   );
