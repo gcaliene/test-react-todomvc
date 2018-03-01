@@ -1,8 +1,9 @@
 import React from 'react';
 import Checkbox from './checkbox';
 
-const TodoListItem = ({ todo, onDeleteClicked, onCompletedClicked, id }) => {
+const TodoListItem = ({ todo, onDeleteClicked, onCompletedClicked }) => {
   console.log(todo);
+
   return (
     <li>
       <div className="todo-list-item-border">

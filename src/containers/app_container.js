@@ -12,8 +12,6 @@ class AppContainer extends Component {
 
   deleteTodoItem = deletedTodo => {
     const todos = this.state.todos.filter(todo => todo !== deletedTodo);
-
-    // );
     this.setState({
       todos
     });
@@ -27,7 +25,6 @@ class AppContainer extends Component {
             this.setState({
               todos: [...this.state.todos, todo]
             });
-            console.log(this.state);
           }}
         />
         <TodoList

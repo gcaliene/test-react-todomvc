@@ -11,6 +11,7 @@ class Checkbox extends Component {
 
   handleCheck = () => {
     this.setState({ checked: !this.state.checked });
+    this.props.handleToggleCheck(this.state.checked);
   };
 
   render() {
@@ -27,7 +28,7 @@ class Checkbox extends Component {
           onChange={this.handleCheck}
           defaultChecked={this.state.checked}
         />
-        <p>this box is {msg}.</p>
+        <p>{msg}</p>
       </div>
     );
   }

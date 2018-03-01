@@ -11,15 +11,12 @@ class AddTodo extends Component {
   }
 
   onInputChange(event) {
-    // console.log(event.target.value);
-    this.setState({ todoTitle: event.target.value }); //"this" needs to bind!!!!
+    this.setState({ todoTitle: event.target.value });
   }
 
   onFormSubmit(event) {
     event.preventDefault();
-    // console.log(this.state.todoTitle);
     this.props.onAddTodoChange(this.state.todoTitle);
-    //Clear input after sumbitting
     this.setState({ todoTitle: '' });
   }
 
