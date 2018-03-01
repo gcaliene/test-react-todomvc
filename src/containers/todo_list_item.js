@@ -1,5 +1,4 @@
 import React from 'react';
-// import '../styles/App.css'
 
 export default class TodoListItem extends React.Component {
   constructor(props) {
@@ -28,7 +27,6 @@ export default class TodoListItem extends React.Component {
           <button onClick={() => this.props.onDeleteClicked(this.props.todo)}>
             X
           </button>
-          <p>{msg}</p>
         </div>
       );
     } else {
@@ -43,7 +41,6 @@ export default class TodoListItem extends React.Component {
           <button onClick={() => this.props.onDeleteClicked(this.props.todo)}>
             X
           </button>
-          <p>{msg}</p>
         </div>
       );
     }
