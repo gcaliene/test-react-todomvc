@@ -7,8 +7,49 @@
 }
 
 .main-border {
-  border: 3px solid #111111;
+  border: 3px solid #111;
+}
+
+.border-padding {
   padding: 7px;
+}
+
+.form-control {
+  margin-top: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.form-control input {
+  height: 100%;
+  width: 600px;
+  border: none;
+  line-height: 0px;
+  padding: 0px;
+  margin: 0;
+  font-size: 24px;
+  position: absolute;
+  left: 0;
+  /* left: 0; */
+}
+
+.form-control button {
+  height: 34px;
+  width: 50px;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  border: none;
+  border-left: 1px solid #333;
+  cursor: pointer;
+  /* width: 60px;
+  height: 100%;
+  line-height: 0;
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+  border: none;
+  border-left: 1px solid grey; */
 }
 
 .crossed-out {

@@ -23,17 +23,16 @@ class AddTodo extends Component {
   render() {
     return (
       <div>
-        <form onSubmit={this.onFormSubmit}>
+        <form onSubmit={this.onFormSubmit} className="form-control main-border">
           <input
             required
             type="text"
             autoFocus
             placeholder="New"
-            className="form-control"
             value={this.state.todoTitle}
             onChange={this.onInputChange}
           />
-          <button>Submit</button>
+          <button>+</button>
         </form>
       </div>
     );
