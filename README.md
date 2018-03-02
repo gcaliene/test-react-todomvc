@@ -1,6 +1,6 @@
 # TodoMVC (REACT)
 
-> Official description of the framework (from its website)
+> A "To Do" App, powered by React.
 
 ## Resources
 
