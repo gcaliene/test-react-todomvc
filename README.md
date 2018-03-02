@@ -14,6 +14,40 @@
 * [Using BEM with JS components.](https://medium.com/seek-blog/block-element-modifying-your-javascript-components-d7f99fcab52b)
 * [Using Post- & Preprocessors with Create React App](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-stylesheet)
 
+### Directory Structure
+
+Recommended file structure:
+
+```
+public/
+  index.html
+  _redirects
+  favicon-GP.ico
+  manifest.json
+src/
+  - components/
+    └──App.js
+  - containers/
+    └──add_todo.js
+    └──app_container.js
+    └──counter.js
+    └──todo_list_item.js
+    └──todo_list.js
+  - styles/
+    └──assets/
+       └──GP-sign2.png
+    └──App.css
+    └──base.css
+    └──TodoList.css
+  index.js
+  registerServiceWorker.js
+.gitignore
+package.json
+README.md
+yarn.lock
+```
+
+
 ## Implementation
 This app was created using Create-React-App, a React tool created by Facebook. This speeds up the configuration by not worrying about setup and configuration. If there is a need to further customize your react app, you would have to eject the app and access to webpack is available. 
 
