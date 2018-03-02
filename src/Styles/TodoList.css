@@ -13,12 +13,17 @@
   justify-content: space-between;
 }
 
+.todo-list_item:hover {
+  box-shadow: 2px 5px 2px 2px #aaa;
+  transition: box-shadow 0.4s ease-in-out;
+}
+
 .todo-list_item:hover .btn {
   visibility: 1;
   opacity: 1;
   -webkit-transition: opacity 1s;
   -o-transition: opacity 1s;
-  transition: opacity 1s;
+  transition: opacity 0.8s;
 }
 
 .todo-list_item span {
