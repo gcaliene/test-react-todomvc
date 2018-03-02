@@ -11,6 +11,14 @@
   margin: 10px auto;
 }
 
+.todo-list_item:hover .btn {
+  visibility: 1;
+  opacity: 1;
+  -webkit-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
 .todo-list_item span {
   line-height: 0px;
   padding: 0px;
@@ -19,13 +27,18 @@
 
 .btn {
   position: absolute;
+  cursor: pointer;
+  visibility: none;
   top: 0;
   display: inline-block;
   min-height: 44px;
   width: 44px;
   line-height: 0px;
   border: none;
-  opacity: 0.75;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
 }
 
 .btn-left {
