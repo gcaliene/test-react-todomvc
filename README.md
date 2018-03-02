@@ -44,6 +44,16 @@ README.md
 yarn.lock
 ```
 
+## Getting Started
+
+```
+git clone <repo>
+cd <repo>
+npm install
+npm start
+```
+
+
 
 ## Implementation
 This app was created using Create-React-App, a React tool created by Facebook. This speeds up the configuration by not worrying about setup and configuration. If there is a need to further customize your react app, you would have to eject the app and access to webpack is available. 
