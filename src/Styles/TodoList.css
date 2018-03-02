@@ -1,0 +1,11 @@
+.todo-list_container {
+  /* position: relative; */
+  padding-left: 0px;
+}
+
+.todo-list_item {
+  max-width: 600px;
+  min-width: 95%;
+  min-height: 50px;
+  margin: 10px auto;
+}

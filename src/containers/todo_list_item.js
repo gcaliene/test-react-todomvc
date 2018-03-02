@@ -17,12 +17,8 @@ export default class TodoListItem extends React.Component {
     let msg;
     if (this.state.completed) {
       msg = (
-        <div>
-          <input
-            type="checkbox"
-            onChange={this.handleCheck}
-            defaultChecked={this.state.completed}
-          />
+        <div className="main-border todo-list_item">
+          <button onClick={() => this.handleCheck()} />
           <span className="crossed-out">{this.props.todo} </span>
           <button onClick={() => this.props.onDeleteClicked(this.props.todo)}>
             X
@@ -31,12 +27,8 @@ export default class TodoListItem extends React.Component {
       );
     } else {
       msg = (
-        <div>
-          <input
-            type="checkbox"
-            onChange={this.handleCheck}
-            defaultChecked={this.state.completed}
-          />
+        <div className="main-border todo-list_item">
+          <button onClick={() => this.handleCheck()} />
           <span className="not-crossed-out">{this.props.todo} </span>
           <button onClick={() => this.props.onDeleteClicked(this.props.todo)}>
             X

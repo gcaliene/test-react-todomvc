@@ -2,6 +2,8 @@ import React from 'react';
 import TodoListItem from './todo_list_item';
 import Counter from './counter';
 
+import '../styles/TodoList.css';
+
 const TodoList = props => {
   const todos = props.todos;
 
@@ -17,7 +19,7 @@ const TodoList = props => {
   });
   return (
     <div>
-      <ul className="todo-list-container">{todoItems}</ul>
+      <ul className="todo-list_container">{todoItems}</ul>
       <Counter todos={todos} />
     </div>
   );
