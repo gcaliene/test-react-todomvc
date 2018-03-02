@@ -4,8 +4,46 @@
 }
 
 .todo-list_item {
+  position: relative;
   max-width: 600px;
   min-width: 95%;
   min-height: 50px;
   margin: 10px auto;
+}
+
+.todo-list_item span {
+  line-height: 0px;
+  padding: 0px;
+  max-width: 400px;
+}
+
+.btn {
+  position: absolute;
+  top: 0;
+  display: inline-block;
+  min-height: 44px;
+  width: 44px;
+  line-height: 0px;
+  border: none;
+  opacity: 0.75;
+}
+
+.btn-left {
+  left: 0;
+  background-color: #01ff70;
+}
+
+.btn-left:hover {
+  background-color: #3d9970;
+  opacity: 0.95;
+}
+
+.btn-right {
+  right: 0;
+  background-color: #ff4136;
+}
+
+.btn-right:hover {
+  background-color: #85144b;
+  opacity: 0.95;
 }

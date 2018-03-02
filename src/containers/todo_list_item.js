@@ -17,23 +17,33 @@ export default class TodoListItem extends React.Component {
     let msg;
     if (this.state.completed) {
       msg = (
-        <div className="main-border todo-list_item">
-          <button onClick={() => this.handleCheck()} />
+        <li className="main-border todo-list_item">
+          <button className="btn-left btn" onClick={() => this.handleCheck()}>
+            Undo
+          </button>
           <span className="crossed-out">{this.props.todo} </span>
-          <button onClick={() => this.props.onDeleteClicked(this.props.todo)}>
+          <button
+            className="btn-right btn"
+            onClick={() => this.props.onDeleteClicked(this.props.todo)}
+          >
             X
           </button>
-        </div>
+        </li>
       );
     } else {
       msg = (
-        <div className="main-border todo-list_item">
-          <button onClick={() => this.handleCheck()} />
+        <li className="main-border todo-list_item">
+          <button className="btn-left btn" onClick={() => this.handleCheck()}>
+            &#10004;
+          </button>
           <span className="not-crossed-out">{this.props.todo} </span>
-          <button onClick={() => this.props.onDeleteClicked(this.props.todo)}>
+          <button
+            className="btn-right btn"
+            onClick={() => this.props.onDeleteClicked(this.props.todo)}
+          >
             X
           </button>
-        </div>
+        </li>
       );
     }
     return <div>{msg}</div>;
