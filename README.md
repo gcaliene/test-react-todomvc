@@ -65,6 +65,8 @@ Netlify was used for deloyment as its use of CDNs provides a faster load time th
 
 The design for the site was based off of Genius Plaza's (GP) Website. GP's color scheme, logo, and favicon was used in the build and I rounded of corners and had certain buttons change color on hover.  
 
+I've also created a simple [graph](https://drive.google.com/file/d/1Q2XpSoTxfhIKFrJqk5cpOrouLkuD4oxP/view?usp=sharing) that can be used as a map when understanding state and props of different components.  
+
 ### Spec Violations
 While I agree with having many feature-branches, I only used the master branch as this project was simple enough to not necessitate mulitple branches. However, I have made detailed commits all throughout the project. If I were to convert this app to use Redux, add persistant storage, or add a major feature (e.g. authentication), then I would definitely make a branch. 
 
