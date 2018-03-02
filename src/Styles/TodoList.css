@@ -4,8 +4,8 @@
 
 .todo-list_item {
   position: relative;
-  max-width: 600px;
-  min-width: 95%;
+  max-width: 550px;
+  /* min-width: 95%; */
   min-height: 50px;
   margin: 10px auto;
   display: flex;
@@ -27,8 +27,13 @@
 }
 
 .todo-list_item span {
+  display: flex;
   padding: 0px;
   max-width: 500px;
+  font-size: 24px;
+  align-items: center;
+  word-break: break-all;
+  word-break: break-word;
 }
 
 .btn {

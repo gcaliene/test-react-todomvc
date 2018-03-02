@@ -16,7 +16,8 @@ class AddTodo extends Component {
 
   onFormSubmit(event) {
     event.preventDefault();
-    this.props.onAddTodoChange(this.state.todoTitle);
+    const trimmedTodo = this.state.todoTitle.trim();
+    this.props.onAddTodoChange(trimmedTodo);
     this.setState({ todoTitle: '' });
   }
 
@@ -29,6 +30,7 @@ class AddTodo extends Component {
             type="text"
             autoFocus
             placeholder="Add a new todo..."
+            maxlength="150"
             value={this.state.todoTitle}
             onChange={this.onInputChange}
           />

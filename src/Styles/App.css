@@ -5,14 +5,32 @@
   margin-right: auto;
 }
 
+.app-header {
+  background-color: #77bef5;
+  text-align: center;
+  min-height: 180px;
+}
+
 .app-header img {
   margin-top: 20px;
   max-height: 50px;
+  color: #fdb515;
+}
+
+.app-header h2 {
+  color: #fdb515;
+}
+
+.app-header .main-border-header {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #fdb515;
 }
 
 .main-border {
-  border: 3px solid #111;
-  border-radius: 3px;
+  border: 3px solid #2d3e50;
+  border-radius: 4px;
 }
 
 .border-padding {
@@ -45,7 +63,7 @@
   right: 0;
   background-color: white;
   border: none;
-  border-left: 1px solid #333;
+  border-left: 1px solid #2d3e50;
   cursor: pointer;
   font-size: 24px;
   font-weight: bold;
@@ -53,4 +71,17 @@
 
 .crossed-out {
   text-decoration: line-through;
+}
+
+@media only screen and (max-width: 650px) {
+  .form-control {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .form-control input {
+    width: 88%;
+  }
+  .form-control button {
+    width: 12%;
+  }
 }

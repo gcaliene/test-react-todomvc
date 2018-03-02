@@ -21,7 +21,7 @@ export default class TodoListItem extends React.Component {
           <button className="btn-left btn" onClick={() => this.handleCheck()}>
             Undo
           </button>
-          <span className="crossed-out">{this.props.todo} </span>
+          <span className="crossed-out">{this.props.todo}</span>
           <button
             className="btn-right btn destroy"
             onClick={() => this.props.onDeleteClicked(this.props.todo)}
@@ -36,7 +36,7 @@ export default class TodoListItem extends React.Component {
           <button className="btn-left btn" onClick={() => this.handleCheck()}>
             &#10004;
           </button>
-          <span className="not-crossed-out">{this.props.todo} </span>
+          <span className="not-crossed-out">{this.props.todo}</span>
           <button
             className="btn-right btn destroy"
             onClick={() => this.props.onDeleteClicked(this.props.todo)}
