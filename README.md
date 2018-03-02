@@ -68,7 +68,7 @@ While I agree with having many feature-branches, I only used the master branch a
 
 The use of Css Preprocessors are not encouraged with React as "features like mixins and nesting are replaced by component composition." This is why I stuck to using 3 css files which will get autoprefixed and minimized on production. There are other reasons why I didn't use Sass, which is why I've included 2 articles on the subject as well as Facebook recommendation in the Articles section.
 
-I didn't use a utils folder because I didn't find a need for it. I reserve it for authentication, custom middleware, or storage options, none of which was required or necessary.
+I didn't use a utils folder because I didn't find a need for it. I reserve it for authentication, custom middleware, or storage options, none of which is required or necessary when creating a React app.
 
 My delete button has a class of .btn-right rather than .destroy. .btn-right is much more descriptive for my app. 
 
