@@ -5,6 +5,11 @@
   margin-right: auto;
 }
 
+.app-header img {
+  margin-top: 20px;
+  max-height: 50px;
+}
+
 .main-border {
   border: 3px solid #111;
   border-radius: 3px;
