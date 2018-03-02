@@ -4,20 +4,20 @@
 
 ## Resources
 
-* [Website]()
-* [Documentation]()
-* [Used by]()
-* [Blog]()
-* [FAQ]()
+* [Website](https://hardcore-edison-f028d0.netlify.com/)
+* [Using Post- & Preprocessors with Create React App](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-stylesheet)
+* [A graphical layout of app](https://drive.google.com/file/d/1Q2XpSoTxfhIKFrJqk5cpOrouLkuD4oxP/view?usp=sharing)
+* [My Portfolio Page](https://gcaliene.github.io/Portfolio/)
 
 ### Articles
 
-* [Interesting article]()
+* [A Medium article about the future of CSS.](https://medium.com/@perezpriego7/css-evolution-from-css-sass-bem-css-modules-to-styled-components-d4c1da3a659b)
+* [Using BEM with JS components.] (https://medium.com/seek-blog/block-element-modifying-your-javascript-components-d7f99fcab52b)
 
 ## Implementation
 
-How was the app created? Anything worth sharing about the process of creating the app? Any spec violations?
+ 
 
 ## Credit
 
-Created by [Your Name](user@noreplay.com)
+Created by [Gerson Calienes](https://gcaliene.github.io/Portfolio/)
