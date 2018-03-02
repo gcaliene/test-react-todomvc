@@ -64,9 +64,9 @@ As this is a Single Page Application using React with no storage option, the sta
 Netlify was used for deloyment as its use of CDNs provides a faster load time than other hosts (github, heroku, bitbucket).
 
 ### Spec Violations
-While I agree with having many feature-branches, I only used the master branch as this project was simple enough to not necessitate mulitple branches. However, I have made detailed commits all throughout the project, some with descriptions. If I were to convert this app to use Redux or add persistant storage, then I would definitely make a branch. 
+While I agree with having many feature-branches, I only used the master branch as this project was simple enough to not necessitate mulitple branches. However, I have made detailed commits all throughout the project. If I were to convert this app to use Redux, add persistant storage, or add a major feature (e.g. authentication), then I would definitely make a branch. 
 
-The use of Css Preprocessors are not encouraged with React as "features like mixins and nesting are replaced by component composition." This is why I stuck to using 3 css files which will get autoprefixed and minimized on production. There are other reasons why I didn't use Sass, which is why I've included 2 articles on the subject as well as Facebook recommendation in the Articles section.
+The use of CSS Preprocessors are not encouraged with React as "features like mixins and nesting are replaced by component composition." This is why I stuck to using 3 css files which will get autoprefixed and minimized on production. There are other reasons why I didn't use Sass, which is why I've included 2 articles on the subject as well as Facebook recommendation in the Articles section.
 
 I didn't use a utils folder because I didn't find a need for it. I reserve it for authentication, custom middleware, or storage options, none of which is required or necessary when creating a React app.
 
