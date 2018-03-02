@@ -22,8 +22,6 @@
 .todo-list_item:hover .btn {
   visibility: 1;
   opacity: 1;
-  -webkit-transition: opacity 1s;
-  -o-transition: opacity 1s;
   transition: opacity 0.8s;
 }
 
@@ -48,8 +46,6 @@
   width: 44px;
   border: none;
   opacity: 0;
-  -webkit-transition: opacity 1s;
-  -o-transition: opacity 1s;
   transition: opacity 1s;
 }
 

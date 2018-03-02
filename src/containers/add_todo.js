@@ -30,7 +30,7 @@ class AddTodo extends Component {
             type="text"
             autoFocus
             placeholder="Add a new todo..."
-            maxlength="150"
+            maxLength="150"
             value={this.state.todoTitle}
             onChange={this.onInputChange}
           />

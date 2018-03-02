@@ -9,7 +9,7 @@ class App extends Component {
         <div className="app-header">
           <img
             src={require('../styles/assets/GP-sign2.png')}
-            alt="Genius Plaza image"
+            alt="Genius Plaza"
           />
           <h2 className="main-border border-padding main-border-header">
             A "To Do" App, powered by React.
