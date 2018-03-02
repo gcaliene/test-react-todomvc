@@ -15,9 +15,6 @@
 * [Using Post- & Preprocessors with Create React App](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-stylesheet)
 
 ### Directory Structure
-
-Recommended file structure:
-
 ```
 public/
   index.html
