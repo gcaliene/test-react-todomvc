@@ -11,6 +11,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: #2d3e50;
 }
 
 .todo-list_item:hover {
@@ -27,6 +28,7 @@
 }
 
 .todo-list_item span {
+  color: #fabc30;
   display: flex;
   padding: 0px;
   max-width: 500px;
@@ -37,6 +39,8 @@
 }
 
 .btn {
+  color: white;
+  font-size: 24px;
   cursor: pointer;
   visibility: none;
   display: inline-block;
@@ -69,4 +73,8 @@
 
 .completed {
   background-color: rgba(0, 255, 0, 0.5);
+}
+
+.completed span {
+  color: black;
 }
